@@ -17,11 +17,17 @@ A console-based secure access and data-protection system written in **x86 Assemb
 ## Project Structure
 
 ```
-NexLock-Secure-Access-System/
-├── Source_Code/
-│   └── PROJECT.asm       # Core assembly source
-├── screenshots/           # Demo screenshots of the running program
-├── README.md
+NexLock/
+├── screenshots/         # Demo screenshots of the running program
+│   ├── 01-main-menu.png
+│   ├── 02-login-success.png
+│   ├── 03-encrypt-message.png
+│   ├── 04-decrypt-message.png
+│   ├── 05-store-note.png
+│   └── 06-view-stored-notes.png
+├── PROJECT.asm          # Core assembly source
+├── .gitignore
+└── README.md
 ```
 
 ## How It Works
