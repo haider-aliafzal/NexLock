@@ -1,0 +1,20 @@
+# Compiled/assembled binaries
+*.exe
+*.com
+*.obj
+*.bin
+*.o
+
+# emu8086 project/session files
+*.emu
+*.EXE
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE files
+.vscode/
+*.swp
+*~
