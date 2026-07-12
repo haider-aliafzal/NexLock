@@ -9,6 +9,20 @@ A console-based secure access and data-protection system written in **x86 Assemb
 - 🗒️ **Secure Note Storage** — Store up to 3 notes (75 characters each) during a session and retrieve them on request
 - 🖥️ **Menu-Driven Interface** — Clean, numbered menu system for navigating all operations
 
+## Screenshots
+
+| Login & Main Menu | Encrypt a Message |
+|---|---|
+| ![Login](screenshots/02-login-success.png) | ![Encrypt](screenshots/03-encrypt-message.png) |
+
+| Decrypt a Message | Store a Note |
+|---|---|
+| ![Decrypt](screenshots/04-decrypt-message.png) | ![Store Note](screenshots/05-store-note.png) |
+
+| View Stored Notes |
+|---|
+| ![View Notes](screenshots/06-view-stored-notes.png) |
+
 ## Tech Stack
 
 - **Language:** x86 Assembly (16-bit)
@@ -48,22 +62,8 @@ NexLock/
    ```bash
    git clone https://github.com/haider-aliafzal/NexLock.git
    ```
-2. Assemble and run `src/PROJECT.asm` in a DOS-compatible x86 emulator (e.g. emu8086).
+2. Assemble and run `PROJECT.asm` in a DOS-compatible x86 emulator (e.g. emu8086).
 3. Follow the on-screen menu to log in and explore the features.
-
-## Screenshots
-
-| Login & Main Menu | Encrypt a Message |
-|---|---|
-| ![Login](screenshots/02-login-success.png) | ![Encrypt](screenshots/03-encrypt-message.png) |
-
-| Decrypt a Message | Store a Note |
-|---|---|
-| ![Decrypt](screenshots/04-decrypt-message.png) | ![Store Note](screenshots/05-store-note.png) |
-
-| View Stored Notes |
-|---|
-| ![View Notes](screenshots/06-view-stored-notes.png) |
 
 ## Author
 
